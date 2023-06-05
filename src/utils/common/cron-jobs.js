@@ -1,11 +1,11 @@
 const cron = require('node-cron');
-const bookingService = require('../../services/booking-service')
 
-function scheduleCrons(){
+const { BookingService } = require('../../services');
+
+function scheduleCrons() {
     cron.schedule('*/30 * * * *', async () => {
-        await bookingService.cancelOldBookings();
+        await BookingService.cancelOldBookings();
     });
 }
-
 
 module.exports = scheduleCrons;

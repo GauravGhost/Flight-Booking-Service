@@ -1,5 +1,5 @@
 const SEAT_TYPE = {
-    BUSSINESS: 'bussiness',
+    BUSINESS: 'business',
     ECONOMY: 'economy',
     PREMIUM_ECONOMY: 'premium-economy',
     FIRST_CLASS: 'first-class'
