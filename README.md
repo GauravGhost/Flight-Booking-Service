@@ -31,7 +31,7 @@ Collectively, these microservices work together to create a robust flight manage
 
 ## Description
 
-The Flight Booking Service is a backend project that I have created and implemented micrservices architecture, it is a comprehensive system that manages various aspects of a flight service. The microservice provides APIs and endpoints to facilitate the flight booking process. When a user wants to book a flight, they interact with the system, providing essential details like the flight they want to book (flightId), the number of seats they wish to reserve (noOfSeats), and their user identification (userId).
+This microservice provides APIs and endpoints to facilitate the flight booking process. When a user wants to book a flight, they interact with the system, providing essential details like the flight they want to book (flightId), the number of seats they wish to reserve (noOfSeats), and their user identification (userId).
 
 This Service has a model booking
 ### Key Features
